@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "declaration": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "preserveConstEnums": true
+    },
+    "buildOnSave": true,
+    "compileOnSave": true,
+    "exclude": [
+      "**/*.d.ts"
+    ],
+    "files": [
+        "./button-page.ts",
+        "./input-page.ts",
+        "./site-container.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

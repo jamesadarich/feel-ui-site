@@ -1,0 +1,28 @@
+{
+  "name": "feel-ui-site",
+  "version": "1.0.0",
+  "description": "Showcase for feel ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrichford/feel-ui-site.git"
+  },
+  "author": "James Richford <=> (=)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesrichford/feel-ui-site/issues"
+  },
+  "homepage": "https://github.com/jamesrichford/feel-ui-site#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-typescript": "^2.10.0",
+    "live-server": "^0.9.0"
+  },
+  "dependencies": {
+    "feel-ui": "0.0.5"
+  }
+}

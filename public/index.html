@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Angular 2 QuickStart</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="feel-ui/dist/style.css">
+    <script src="angular2/bundles/angular2-polyfills.js"></script>
+    <script src="systemjs/dist/system.src.js"></script>
+    <script src="rxjs/bundles/Rx.js"></script>
+    <script src="angular2/bundles/angular2.dev.js"></script>
+    <script src="angular2/bundles/router.js"></script>
+    <base href="/" >
+    <script>
+      System.config({
+        packages: {
+          ts: {
+            format: 'register',
+            defaultExtension: 'js'
+         },
+           "feel-ui": {
+             format: 'register',
+             defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('ts/site-container')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+  <body>
+    <my-app>loading...</my-app>
+  </body>
+</html>

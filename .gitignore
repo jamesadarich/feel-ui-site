@@ -1,0 +1,9 @@
+#npm
+node_modules
+
+#sass
+public/css
+
+#TypeScript
+public/ts/**/*.js
+public/ts/**/*.js.map
